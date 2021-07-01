@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>exFAT</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mariko</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>21</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>71</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Firmware folder</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>55</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Key file</string>
+    </property>
+   </widget>
+   <widget class="QDialogButtonBox" name="buttonBox">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>193</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+    <property name="placeholderText">
+     <string>firmware path...</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+    <property name="placeholderText">
+     <string>key path...</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>autoRCM</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="tristate">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fix hashes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Verbose</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show NCA index</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
